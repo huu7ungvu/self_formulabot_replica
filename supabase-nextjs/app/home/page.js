@@ -38,6 +38,8 @@ export default function UserManagement() {
     fetchUser();
   }, []); // Chạy một lần khi component mount;
 
+  // print user data
+  console.log(user);
 
   return (
     <Home>
